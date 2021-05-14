@@ -9,6 +9,10 @@
     <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css?{{ cache_id }}">
     <link rel="icon" href="../static/images/icon.png" />
     <title>HBnB</title>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../static/scripts/1-hbnb.js?{{ cache_id }}"></script>
+
   </head>
   <body>
     <header>
@@ -36,11 +40,11 @@
 	</div>
 	<div class="amenities">
 	  <h3>Amenities</h3>
-	  <h4>&nbsp;</h4>
+	  <h4 id='selectedtext'>&nbsp;</h4>
 	  <div class="popover">
 	    <ul>
 	      {% for amenity in amenities %}
-	      <li><input type="checkbox" data_id=":amenity_id" data_name=":amenity_name">{{ amenity.name }}</li>
+	      <li><input class="chckbx" type="checkbox" data_id="{{ amenity.id }}" data_name="{{ amenity.name }}">{{ amenity.name }}</li>
 	      {% endfor %}
 	    </ul>
 	  </div>
