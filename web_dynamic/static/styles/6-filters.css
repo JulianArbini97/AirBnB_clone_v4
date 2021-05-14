@@ -1,3 +1,6 @@
+.amenities .popover ul li input {
+    margin-right: 10px;
+}
 .container .filters {
     position: relative;
     background: white;
