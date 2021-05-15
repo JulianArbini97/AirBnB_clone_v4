@@ -10,4 +10,13 @@ $(document).ready(function() {
       $("#selectedtext").text(text);
       $('#count').val(ids);
     });
+
+    $.get('http://localhost:5001/api/v1/status/', function(data, statusText, xhr) {
+      if (xhr.status == 200) {
+        $("DIV#api_status").addClass("available");
+      }
+      else {
+        $("DIV#api_status").removeClass("available");
+      }
+    });
   });

@@ -46,7 +46,6 @@ button:hover {
 }
 
 #selectedtext {
-    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
