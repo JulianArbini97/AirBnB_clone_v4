@@ -49,6 +49,14 @@ button:hover {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.chk_state {
+    margin-right: 10px;
+    float:left;
+    margin-top: 8px;
+}
+.chk_city {
+    margin-right: 10px;
+}
 
 .locations {
     height: 100%;
