@@ -1,3 +1,6 @@
+# AirBnB Clone - Web Dynamic
+In this instance we made the web dynamic. now it is possible to filter places by State, City and Amenities. 
+
 # AirBnB Clone - The Console
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
@@ -158,7 +161,12 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Soledad Frechou - [Github](https://github.com/sfrechou)
+Julian Arbini - [Github](https://github.com/JulianArbini97)
 
 Second part of Airbnb: Joann Vuong
+Third part of Airbnb: Jhoan Zamora
+Fourth part of Aribnb: Soledad Frechou / Julian Arbini
+
 ## License
 Public Domain. No copy write protection. 
